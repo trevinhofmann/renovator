@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Trevin Hofmann's repository for running the Renovate bot",
   "scripts": {
-    "renovate": "renovate --dry-run"
+    "renovate": "renovate"
   },
   "author": "Trevin Hofmann <trevinhofmann@gmail.com>",
   "license": "Unlicense",
