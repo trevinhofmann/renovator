@@ -22,5 +22,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install dependencies
         run: npm ci
+      - name: Set up git
+        run: |
+          git config --global user.email "trevinhofmann@gmail.com"
+          git config --global user.name "Trevin Hofmann"
       - name: Run renovate
         run: npm run renovate -- trevinhofmann/eslint-config-principled
