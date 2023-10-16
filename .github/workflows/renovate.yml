@@ -11,7 +11,7 @@ jobs:
   renovate:
     runs-on: ubuntu-latest
     env:
-      RENOVATE_CONFIG: {"token":"${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}","gitAuthor":"trevinhofmann@gmail.com"}      
+      RENOVATE_CONFIG: "{\"token\":\"${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}\",\"gitAuthor\":\"trevinhofmann@gmail.com\"}"
 
     steps:
       - uses: actions/checkout@v2
